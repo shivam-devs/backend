@@ -11,7 +11,7 @@ dotenv.config();
 //middlewares
 app.use(
   cors({
-    origin: ["*","http://localhost:3000"],
+    origin: ["https://tuf-flash-card.netlify.app","http://localhost:3000"],
     methods: ["GET", "POST", "DELETE"],
     credentials: true,
   })
